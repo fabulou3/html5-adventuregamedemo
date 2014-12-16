@@ -49,6 +49,7 @@ function showWin(){
 	ctx.fillText('Ye! you made it!', 30, 0);
 	ctx.fillText('thank you, andersonferminiano.com', 30, 30);
 	ctx.fillText('@andferminiano', 30, 60);	
+	ctx.fillText('Forked and Edited by Fabulou3', 30, 90)
 }
 
 function handleInteractions(){
@@ -78,7 +79,7 @@ function handleInteractions(){
 		vel.x = -60;
 	}
 	else if (keys[39]){
-		vel.x = 60;
+		vel.x = 260;
 	}
 	
 	
